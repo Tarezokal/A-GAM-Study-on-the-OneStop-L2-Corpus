@@ -7,4 +7,3 @@ Models: EleutherAI `pythia-70m` for surprisal; GAMs (`pygam`) for statistics.
 - Compute full-context token surprisal with `pythia-70m`.
 - Fit separate GAMs for L1 and L2 on **FFD**, **FRD**, **TFD** with controls (length, log frequency, position).
 - Compare unique contributions (ΔR²) of **frequency vs. surprisal**.
-- Key finding (fill with your numbers): Surprisal contributes ~X.X pp more ΔR² for L2 than L1 in FFD; no reliable group difference in TFD/FRD.
